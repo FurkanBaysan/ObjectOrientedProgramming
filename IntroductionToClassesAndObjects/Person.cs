@@ -17,7 +17,7 @@ namespace IntroductionToClassesAndObjects
         }
         public double Eating(double increment)
         {
-            this.Weight = this.Weight + increment;
+            this.Weight = this.Weight + increment; 
             return this.Weight;
         }
         //Factory Method
