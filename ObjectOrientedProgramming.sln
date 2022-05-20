@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiers", "AccessMo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Properties", "Properties\Properties.csproj", "{700107F2-9AE5-4121-8C33-D95BDA1BCC88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexers", "Indexers\Indexers.csproj", "{4653FD07-7CFA-45B9-B9DB-842EF3496CB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexers", "Indexers\Indexers.csproj", "{4653FD07-7CFA-45B9-B9DB-842EF3496CB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopwatchApplication", "StopwatchApplication\StopwatchApplication.csproj", "{D762E2A8-6FEC-464F-8DE2-D3F01E3D9987}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{4653FD07-7CFA-45B9-B9DB-842EF3496CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4653FD07-7CFA-45B9-B9DB-842EF3496CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4653FD07-7CFA-45B9-B9DB-842EF3496CB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D762E2A8-6FEC-464F-8DE2-D3F01E3D9987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D762E2A8-6FEC-464F-8DE2-D3F01E3D9987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D762E2A8-6FEC-464F-8DE2-D3F01E3D9987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D762E2A8-6FEC-464F-8DE2-D3F01E3D9987}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
