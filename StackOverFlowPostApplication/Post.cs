@@ -37,8 +37,5 @@ namespace StackOverFlowPostApplication
         {
             return this.Vote;
         }
-
-
-
     }
 }
