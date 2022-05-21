@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StopwatchApplication", "Sto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackOverFlowPostApplication", "StackOverFlowPostApplication\StackOverFlowPostApplication.csproj", "{5A28EF2F-A91B-40B9-A49C-232C4A49FC6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{8745E1A0-2FA8-4D0B-A544-C97D169E0F2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{5A28EF2F-A91B-40B9-A49C-232C4A49FC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A28EF2F-A91B-40B9-A49C-232C4A49FC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A28EF2F-A91B-40B9-A49C-232C4A49FC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8745E1A0-2FA8-4D0B-A544-C97D169E0F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8745E1A0-2FA8-4D0B-A544-C97D169E0F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8745E1A0-2FA8-4D0B-A544-C97D169E0F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8745E1A0-2FA8-4D0B-A544-C97D169E0F2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
