@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackOverFlowPostApplicatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{8745E1A0-2FA8-4D0B-A544-C97D169E0F2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composition", "Composition\Composition.csproj", "{60A000B0-F43D-4491-8506-FFAE8CD76CDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{8745E1A0-2FA8-4D0B-A544-C97D169E0F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8745E1A0-2FA8-4D0B-A544-C97D169E0F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8745E1A0-2FA8-4D0B-A544-C97D169E0F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60A000B0-F43D-4491-8506-FFAE8CD76CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A000B0-F43D-4491-8506-FFAE8CD76CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A000B0-F43D-4491-8506-FFAE8CD76CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A000B0-F43D-4491-8506-FFAE8CD76CDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
