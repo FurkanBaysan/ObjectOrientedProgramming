@@ -19,11 +19,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexers", "Indexers\Indexe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StopwatchApplication", "StopwatchApplication\StopwatchApplication.csproj", "{D762E2A8-6FEC-464F-8DE2-D3F01E3D9987}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackOverFlowPostApplication", "StackOverFlowPostApplication\StackOverFlowPostApplication.csproj", "{5A28EF2F-A91B-40B9-A49C-232C4A49FC6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackOverFlowPostApplication", "StackOverFlowPostApplication\StackOverFlowPostApplication.csproj", "{5A28EF2F-A91B-40B9-A49C-232C4A49FC6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{8745E1A0-2FA8-4D0B-A544-C97D169E0F2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{8745E1A0-2FA8-4D0B-A544-C97D169E0F2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composition", "Composition\Composition.csproj", "{60A000B0-F43D-4491-8506-FFAE8CD76CDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composition", "Composition\Composition.csproj", "{60A000B0-F43D-4491-8506-FFAE8CD76CDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiersInInheritance", "AccessModifiersInInheritance\AccessModifiersInInheritance.csproj", "{833089F8-4969-46CF-9A44-EF7C4823D813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "Amazon\Amazon.csproj", "{6FA12AA3-BA63-43E1-81D8-E98C0CB8A370}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{60A000B0-F43D-4491-8506-FFAE8CD76CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60A000B0-F43D-4491-8506-FFAE8CD76CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60A000B0-F43D-4491-8506-FFAE8CD76CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{833089F8-4969-46CF-9A44-EF7C4823D813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833089F8-4969-46CF-9A44-EF7C4823D813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833089F8-4969-46CF-9A44-EF7C4823D813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833089F8-4969-46CF-9A44-EF7C4823D813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA12AA3-BA63-43E1-81D8-E98C0CB8A370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA12AA3-BA63-43E1-81D8-E98C0CB8A370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA12AA3-BA63-43E1-81D8-E98C0CB8A370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA12AA3-BA63-43E1-81D8-E98C0CB8A370}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
