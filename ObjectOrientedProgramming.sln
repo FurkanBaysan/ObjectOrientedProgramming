@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpcastingAndDowncasting", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DowncastingScenario", "DowncastingScenario\DowncastingScenario.csproj", "{86A14810-B3A4-4BC4-8897-8A0C28EF6AAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackDesignApplication", "StackDesignApplication\StackDesignApplication.csproj", "{50879A66-3998-4E50-824F-39B0FD47574A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{86A14810-B3A4-4BC4-8897-8A0C28EF6AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86A14810-B3A4-4BC4-8897-8A0C28EF6AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86A14810-B3A4-4BC4-8897-8A0C28EF6AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50879A66-3998-4E50-824F-39B0FD47574A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50879A66-3998-4E50-824F-39B0FD47574A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50879A66-3998-4E50-824F-39B0FD47574A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50879A66-3998-4E50-824F-39B0FD47574A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
