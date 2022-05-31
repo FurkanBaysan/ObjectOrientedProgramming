@@ -1,6 +1,7 @@
 ﻿using System;
+using DatabaseConnectionDesignApplication;
 
-namespace DatabaseConnectionDesignApplication
+namespace DatabaseConnectionAndDatabaseCommandDesignApplication
 {
     class Program
     {
@@ -13,6 +14,13 @@ namespace DatabaseConnectionDesignApplication
             DbConnection sqlServerDbConnection = new SqlConnection("SqlServer Connection String");
             sqlServerDbConnection.Open();
             sqlServerDbConnection.Close();
+
+            Console.WriteLine();
+
+            DbCommand command = new DbCommand(oracleDbConnection, "Select * from Customer");
+            command.Execute();
+            DbCommand dbCommand = new DbCommand(sqlServerDbConnection, "Select * from Product");
+            dbCommand.Execute();
         }
     }
 }

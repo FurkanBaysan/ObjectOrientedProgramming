@@ -41,7 +41,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOverriding", "MethodO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassesAndMembers", "AbstractClassesAndMembers\AbstractClassesAndMembers.csproj", "{3C17FF3D-9CF8-4B45-B291-8EFAA38C3E04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseConnectionDesignApplication", "DatabaseConnectionDesignApplication\DatabaseConnectionDesignApplication.csproj", "{FC55A231-5D8D-4BEA-99F6-D13D1D856A50}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseConnectionAndDatabaseCommandDesignApplication", "DatabaseConnectionDesignApplication\DatabaseConnectionAndDatabaseCommandDesignApplication.csproj", "{FC55A231-5D8D-4BEA-99F6-D13D1D856A50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
