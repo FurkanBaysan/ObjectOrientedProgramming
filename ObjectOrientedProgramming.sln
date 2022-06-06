@@ -53,6 +53,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesAreNotForMultiple
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesAndPolymorphism", "InterfacesAndPolymorphism\InterfacesAndPolymorphism.csproj", "{694F339E-91A1-4A89-BE8D-65E117148189}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowEngineDesignApplication", "WorkflowEngineDesignApplication\WorkflowEngineDesignApplication.csproj", "{D86CAEE7-679A-4618-A01A-6B9C0DE0FE5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{694F339E-91A1-4A89-BE8D-65E117148189}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{694F339E-91A1-4A89-BE8D-65E117148189}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{694F339E-91A1-4A89-BE8D-65E117148189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86CAEE7-679A-4618-A01A-6B9C0DE0FE5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86CAEE7-679A-4618-A01A-6B9C0DE0FE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86CAEE7-679A-4618-A01A-6B9C0DE0FE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86CAEE7-679A-4618-A01A-6B9C0DE0FE5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
