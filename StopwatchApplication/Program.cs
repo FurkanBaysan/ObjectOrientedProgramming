@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace StopwatchApplication
 {
@@ -8,24 +9,18 @@ namespace StopwatchApplication
         {
             Stopwatch stopwatch = new Stopwatch();
 
-            string input;
-            Console.WriteLine("Enter S to Start the Stopwatch" +
-                              " and Q to Stop");
-            input = Console.ReadLine();
-
-            while (!string.IsNullOrEmpty(input))
+            for (int i = 0; i < 2; i++)
             {
-                if (input.ToLower().Equals("S"))
-                {
-                    stopwatch.Start();
-                    Console.WriteLine("Enter Q the Stop the StopWatch");
-                }
-                else if (input.ToLower().Equals("Q"))
-                {
-                    Console.WriteLine(stopwatch.Stop());
-                    Console.WriteLine("Enter S to Start the StopWatch");
-                }
-                input = Console.ReadLine();
+                stopwatch.Start();
+
+                Thread.Sleep(1000);
+
+                stopwatch.Stop();
+
+                Console.WriteLine("Duration: " + stopwatch.GetInterval());
+
+                Console.WriteLine("Please Press Enter to Run the Stopwatch one again.");
+                Console.ReadLine();
             }
         }
     }

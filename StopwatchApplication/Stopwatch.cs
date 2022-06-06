@@ -8,32 +8,35 @@ namespace StopwatchApplication
 {
     public class Stopwatch
     {
-        public bool IsStart { get; set; }
-        public DateTime StartTime { get; set; }
-        public DateTime StopTime { get; set; }
-        public TimeSpan Duration { get; set; }
+        private DateTime _startTime;
+        private DateTime _endTime;
+        private bool _running;
 
         public void Start()
         {
-            if (IsStart)
+            if (_running)
             {
                 throw new InvalidOperationException();
             }
-            StartTime = DateTime.Now;
-            IsStart = true;//Indicating that stopwatch is now started.
+            this._startTime = DateTime.Now;
+            _running = true; // Indicating that stopwatch is now started.
         }
 
-        public string Stop()
+        public void Stop()
         {
-            if (!IsStart)
+            if (!_running)
             {
                 throw new InvalidOperationException();
             }
-            this.StopTime = DateTime.Now;
-            this.Duration = this.StopTime - this.StartTime;
-            IsStart = false;//indicating that stopwatch stopped
 
-            return Duration.Seconds.ToString();
+            this._endTime = DateTime.Now;
+            _running = false; // indicating that stopwatch stopped
+        }
+
+        public TimeSpan GetInterval()
+        {
+            TimeSpan duration = _endTime - _startTime;
+            return duration;
         }
     }
 }
